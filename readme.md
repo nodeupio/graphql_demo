@@ -7,9 +7,12 @@ Simple GraphQL server that allows managing todos:
 * Update due date
 * Delete todo
 
+## Requirements
+
+python 3.7 or newer
 
 ## Installation
-Clone and nathe repo
+Clone repo
 ```bash
 git clone git@bitbucket.org:nodeupio/graphql_demo.git
 ```
