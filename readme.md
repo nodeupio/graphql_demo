@@ -14,7 +14,7 @@ python 3.7 or newer
 ## Installation
 Clone repo
 ```bash
-git clone git@bitbucket.org:nodeupio/graphql_demo.git
+git clone git@github.com:nodeupio/graphql_demo.git
 ```
 Navigate to the root folder
 ```bash
