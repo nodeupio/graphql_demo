@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ## Running the app
 
 ```bash
-export export FLASK_APP=main
+export FLASK_APP=main
 ```
 
 Start the server 
