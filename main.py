@@ -3,10 +3,13 @@ from api import models
 from ariadne import load_schema_from_path, make_executable_schema, \
     graphql_sync, snake_case_fallback_resolvers, ObjectType
 from ariadne.constants import PLAYGROUND_HTML
-from flask import request, jsonify
+from flask import request, jsonify, Flask
+from flask_cors import CORS
 from api.queries import resolve_todos, resolve_todo
 from api.mutations import resolve_create_todo, resolve_mark_done, resolve_delete_todo, resolve_update_due_date
 
+app = Flask(__name__)
+CORS(app)
 
 query = ObjectType("Query")
 
