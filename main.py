@@ -8,7 +8,6 @@ from flask_cors import CORS
 from api.queries import resolve_todos, resolve_todo
 from api.mutations import resolve_create_todo, resolve_mark_done, resolve_delete_todo, resolve_update_due_date
 
-app = Flask(__name__)
 CORS(app)
 
 query = ObjectType("Query")
