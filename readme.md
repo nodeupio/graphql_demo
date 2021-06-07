@@ -28,7 +28,7 @@ python3 -m venv todo_env
 
 Install required packages
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Running the app
